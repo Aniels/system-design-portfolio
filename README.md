@@ -8,7 +8,7 @@
 
 | # | Case study | 核心能力 | 狀態 |
 |---|---|---|---|
-| 01 | [URL Shortener](case-studies/01-url-shortener/README.md) | Read-heavy、ID generation、cache | Planned |
+| 01 | [URL Shortener](case-studies/01-url-shortener/README.md) | Read-heavy、ID generation、cache | In progress |
 | 02 | [Global Rate Limiter](case-studies/02-global-rate-limiter/README.md) | Distributed quota、lease、failure policy | In progress |
 | 03 | [Notification System](case-studies/03-notification-system/README.md) | Event-driven、retry、idempotency | In progress |
 | 04 | [Chat System](case-studies/04-chat-system/README.md) | WebSocket、ordering、presence | Planned |
