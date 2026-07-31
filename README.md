@@ -6,18 +6,20 @@
 
 ## Portfolio Roadmap
 
-| # | Case study | 核心能力 | 狀態 |
-|---|---|---|---|
-| 01 | [URL Shortener](case-studies/01-url-shortener/README.md) | Read-heavy、ID generation、cache | In progress |
-| 02 | [Global Rate Limiter](case-studies/02-global-rate-limiter/README.md) | Distributed quota、lease、failure policy | In progress |
-| 03 | [Notification System](case-studies/03-notification-system/README.md) | Event-driven、retry、idempotency | In progress |
-| 04 | [Chat System](case-studies/04-chat-system/README.md) | WebSocket、ordering、presence | Planned |
-| 05 | [Cloud Storage](case-studies/05-cloud-storage/README.md) | Chunking、sync、metadata | Planned |
-| 06 | [Social Feed](case-studies/06-social-feed/README.md) | Fan-out、timeline、celebrity problem | Planned |
-| 07 | [Video Streaming](case-studies/07-video-streaming/README.md) | CDN、transcoding、adaptive bitrate | Planned |
-| 08 | [Ride-hailing](case-studies/08-ride-hailing/README.md) | Geospatial index、matching、realtime | Planned |
-| 09 | [Distributed Job Scheduler](case-studies/09-distributed-job-scheduler/README.md) | Lease、leader election、execution semantics | Planned |
-| 10 | [Global Load Balancer](case-studies/10-global-load-balancer/README.md) | Anycast、DNS、health probe、failover | In progress |
+| # | Case study | 核心能力 | 狀態 | 完成度 |
+|---|---|---|---|---:|
+| 01 | [URL Shortener](case-studies/01-url-shortener/README.md) | Read-heavy、ID generation、multi-level cache、consistency benchmark | Design complete; validation pending | 75% |
+| 02 | [Global Rate Limiter](case-studies/02-global-rate-limiter/README.md) | Distributed quota、lease、failure policy | In progress | TBD |
+| 03 | [Notification System](case-studies/03-notification-system/README.md) | Event-driven、retry、idempotency | In progress | TBD |
+| 04 | [Chat System](case-studies/04-chat-system/README.md) | WebSocket、ordering、presence | Planned | 0% |
+| 05 | [Cloud Storage](case-studies/05-cloud-storage/README.md) | Chunking、sync、metadata | Planned | 0% |
+| 06 | [Social Feed](case-studies/06-social-feed/README.md) | Fan-out、timeline、celebrity problem | Planned | 0% |
+| 07 | [Video Streaming](case-studies/07-video-streaming/README.md) | CDN、transcoding、adaptive bitrate | Planned | 0% |
+| 08 | [Ride-hailing](case-studies/08-ride-hailing/README.md) | Geospatial index、matching、realtime | Planned | 0% |
+| 09 | [Distributed Job Scheduler](case-studies/09-distributed-job-scheduler/README.md) | Lease、leader election、execution semantics | Planned | 0% |
+| 10 | [Global Load Balancer](case-studies/10-global-load-balancer/README.md) | Anycast、DNS、health probe、failover | In progress | TBD |
+
+> URL Shortener 的 75% 是 repository 內部進度標記：設計文件已完成，但 consistency/database benchmark、cache trace simulation、RPO/RTO 與 cost model 尚未驗證，不代表 production readiness。
 
 ## Repository Structure
 
@@ -58,10 +60,19 @@
 
 目前優先把已討論過的四題整理成完整案例：
 
-1. Global Rate Limiter
-2. Notification System
-3. URL Shortener
-4. Global Load Balancer
+1. URL Shortener：完成 benchmark、RPO/RTO 與 cost validation。
+2. Global Rate Limiter。
+3. Notification System。
+4. Global Load Balancer。
+
+## Reusable Notes
+
+- [Multi-level Cache and Consistency](tradeoff-notes/multi-level-cache-and-consistency.md)
+
+## Architecture Decisions
+
+- [ADR-0001: URL Short Code Generation](adr/0001-url-short-code-generation.md)
+- [ADR-0002: URL Metadata Consistency and Replication Baseline](adr/0002-url-metadata-consistency.md)
 
 ## Author
 
