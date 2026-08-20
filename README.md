@@ -68,8 +68,7 @@
 ## Reusable Notes
 
 - [Multi-level Cache and Consistency](tradeoff-notes/multi-level-cache-and-consistency.md)
-- [APIM AI Gateway × Foundry Priority Processing](tradeoff-notes/apim-ai-gateway-priority-processing.md)
-- [Azure Hosted Agent — Session + RAG](tradeoff-notes/azure-hosted-agent-session-rag.md)
+- [Agent Architecture: Session State vs RAG vs Durable Business State](tradeoff-notes/agent-session-rag-durable-state.md)
 - [Strong Consistency vs Idempotency in Notification Delivery](tradeoff-notes/strong-consistency-vs-idempotency-notifications.md)
 - [Azure Public IP: Basic → Standard SKU Upgrade](tradeoff-notes/azure-public-ip-basic-to-standard-upgrade.md)
 
