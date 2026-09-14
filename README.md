@@ -18,8 +18,11 @@
 | 08 | [Ride-hailing](case-studies/08-ride-hailing/README.md) | Geospatial index、matching、realtime | Planned | 0% |
 | 09 | [Distributed Job Scheduler](case-studies/09-distributed-job-scheduler/README.md) | Lease、leader election、execution semantics | Planned | 0% |
 | 10 | [Global Load Balancer](case-studies/10-global-load-balancer/README.md) | Anycast、DNS、health probe、failover | In progress | TBD |
+| 11 | [CivicOrgOps / 公民系統](case-studies/11-civic-org-operations/README.md) | RBAC、API-first evolution、Azure scale requirements、archive recovery | Recovered archive; needs review | TBD |
 
 > URL Shortener 的 75% 是 repository 內部進度標記：設計文件已完成，但 consistency/database benchmark、cache trace simulation、RPO/RTO 與 cost model 尚未驗證，不代表 production readiness。
+>
+> CivicOrgOps 是從不活躍 ChatGPT Project 復原的架構資產；完整 conversation coverage 與原始 RBAC/OpenAPI artifacts 尚未驗證，因此目前不是 production-ready 或完整 case study。
 
 ## Repository Structure
 
@@ -64,6 +67,8 @@
 2. Global Rate Limiter。
 3. Notification System。
 4. Global Load Balancer。
+
+CivicOrgOps 目前作為 recovered archive 保存，待缺失來源補齊後再決定是否升級為完整 portfolio case study。
 
 ## Reusable Notes
 
