@@ -67,6 +67,7 @@
 
 ## Reusable Notes
 
+- [Digital Sovereignty and Vendor Exit Strategy](tradeoff-notes/digital-sovereignty-and-vendor-exit-strategy.md)
 - [Multi-level Cache and Consistency](tradeoff-notes/multi-level-cache-and-consistency.md)
 - [APIM AI Gateway × Foundry Priority Processing](tradeoff-notes/apim-ai-gateway-priority-processing.md)
 - [Azure Hosted Agent — Session + RAG](tradeoff-notes/azure-hosted-agent-session-rag.md)
