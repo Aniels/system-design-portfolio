@@ -67,6 +67,7 @@
 
 ## Reusable Notes
 
+- [Distributed Systems Testing Strategy — Invariants, Faults, Recovery](tradeoff-notes/distributed-systems-testing-invariants-faults-recovery.md)
 - [Digital Sovereignty and Vendor Exit Strategy](tradeoff-notes/digital-sovereignty-and-vendor-exit-strategy.md)
 - [Vendor Exitability Engineering — ETO, ERO, Data & Control Planes](tradeoff-notes/vendor-exitability-engineering.md)
 - [Multi-level Cache and Consistency](tradeoff-notes/multi-level-cache-and-consistency.md)
