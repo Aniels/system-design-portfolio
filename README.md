@@ -67,6 +67,7 @@
 
 ## Reusable Notes
 
+- [OpenTelemetry in Azure Observability: Roles, Data Flow, and Trade-offs](tradeoff-notes/opentelemetry-azure-observability.md)
 - [Kafka vs RabbitMQ — Queue vs Log Is No Longer Enough](tradeoff-notes/kafka-vs-rabbitmq-workload-semantics.md)
 - [Distributed Systems Testing Strategy — Invariants, Faults, Recovery](tradeoff-notes/distributed-systems-testing-invariants-faults-recovery.md)
 - [Digital Sovereignty and Vendor Exit Strategy](tradeoff-notes/digital-sovereignty-and-vendor-exit-strategy.md)
